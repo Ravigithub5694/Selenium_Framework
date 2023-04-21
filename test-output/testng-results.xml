@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-18T22:34:48 IST" name="Default suite" finished-at="2023-02-18T22:34:54 IST" duration-ms="6577">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Cucumber.TestNGTestRunner@33065d67]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-02-18T22:34:48 IST" name="Default test" finished-at="2023-02-18T22:34:54 IST" duration-ms="6577">
+      <class name="Cucumber.TestNGTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Cucumber.TestNGTestRunner@33065d67]" started-at="2023-02-18T22:34:48 IST" name="setUpClass" finished-at="2023-02-18T22:34:48 IST" duration-ms="555" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4e0cc334]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Cucumber.TestNGTestRunner@33065d67]" started-at="2023-02-18T22:34:48 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-18T22:34:52 IST" duration-ms="3239" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Positive test of submitting the order"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Purchase the order from Ecommerce site"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "ravikumaracademy.PageObjects.LandingPage.loginApplication(String, String)" because "this.landingpage" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "ravikumaracademy.PageObjects.LandingPage.loginApplication(String, String)" because "this.landingpage" is null
+at ravikumaracademy.stepDefinition.StepDefinitionImpl.logged_in_username_and_password(StepDefinitionImpl.java:30)
+at ✽.Logged in with username cravi.ravikumar1@gmail.com and passwordRavi@5694(file:///E:/Eclipseworkspace/SelFramework1/src/test/java/Cucumber/Submit.feature:13)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Cucumber.TestNGTestRunner@33065d67]" started-at="2023-02-18T22:34:52 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-18T22:34:54 IST" duration-ms="2668" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Positive test of submitting the order"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Purchase the order from Ecommerce site"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "ravikumaracademy.PageObjects.LandingPage.loginApplication(String, String)" because "this.landingpage" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "ravikumaracademy.PageObjects.LandingPage.loginApplication(String, String)" because "this.landingpage" is null
+at ravikumaracademy.stepDefinition.StepDefinitionImpl.logged_in_username_and_password(StepDefinitionImpl.java:30)
+at ✽.Logged in with username anshika@gmail.com and passwordIamking@000(file:///E:/Eclipseworkspace/SelFramework1/src/test/java/Cucumber/Submit.feature:13)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Cucumber.TestNGTestRunner@33065d67]" started-at="2023-02-18T22:34:54 IST" name="tearDownClass" finished-at="2023-02-18T22:34:54 IST" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Cucumber.TestNGTestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
